@@ -11,8 +11,8 @@
 * Flyway
 #
 ## Para iniciar base de dados,acesse: 
-* /petz-api e digite: 
-* docker-compose up." Com isso a base(petz) será iniciada, com as tabelas cliente e pet, com alguns registros iniciais.
+_**/petz-api**_ e digite: _**docker-compose up**_ 
+Com isso a base(petz) será iniciada, com as tabelas cliente e pet, com alguns registros iniciais.
 #
 ## Documentação da Api
 http://localhost:8080/swagger-ui.html
