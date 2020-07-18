@@ -1,5 +1,4 @@
 # petz-api
-#
 ## Tecnologias utilizadas
 * SpringBoot
 * Spring Data JPA
