@@ -18,7 +18,11 @@ Com isso a base,**petz**, será iniciada, com as tabelas **cliente** e **pet**, 
 #
 ## Levantar a aplicação 
 Após clonar o repositório, deverá abri-lo em uma IDE, de sua preferência, para projetos java.
-Com a aplicação em execução, a mesma estará disponível na url:http://localhost:8080/**nome_do_recurso
+Com a aplicação em execução, a mesma estará disponível na url:http://localhost:8080/nome_do_recurso
+### IDE's recomendadas
+* Intellij
+* Eclipse
+* STS
 #
 ## Links
 ### Documentação da API
