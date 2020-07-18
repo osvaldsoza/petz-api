@@ -20,4 +20,4 @@
 ### Username:petz
 ### Password:petz
 
-## Obs:Em uma aplicação teria usado OAuth2 com validação de tokins.
+## Obs:Em uma aplicação teria usado OAuth2 com requisição e validação de tokins.
