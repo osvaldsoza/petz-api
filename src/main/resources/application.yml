@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    password: petz
+    url: jdbc:postgresql://localhost/petz?createDatabaseIfNotExist=true&serverTimezone=UTC
+    username: petz
+  jpa:
+    database: POSTGRESQL
+  flyway:
+    locations: classpath:db/migration 
