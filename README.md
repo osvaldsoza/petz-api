@@ -10,6 +10,7 @@
 * Flyway
 * Docker
 * Docker Compose
+* JDK 11
 #
 ## Base de dados
 ### Acesse:
@@ -27,7 +28,7 @@ Com a aplicação em execução, a mesma estará disponível na url:http://local
 ## Links
 ### Documentação da API
 * http://localhost:8080/swagger-ui.html
-### Postman(endpooints configurados)
+### Postman
 * https://www.getpostman.com/collections/a4207217acc97b365b65
 #
 ## Autneticação
