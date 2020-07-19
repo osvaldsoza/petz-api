@@ -13,7 +13,7 @@
 * JDK 11
 #
 ## Base de dados
-### Acesse:
+### Com o Docker instalado,acesse:
 _**/petz-api**_ e digite: _**docker-compose up**_. 
 Com isso a base,**petz**, será iniciada, com as tabelas **cliente** e **pet**, com alguns registros iniciais.
 #
