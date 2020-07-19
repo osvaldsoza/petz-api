@@ -36,4 +36,4 @@ Com a aplicação em execução, a mesma estará disponível na url:http://local
 * Username:petz 
 * Password:petz
 #
-## Obs:Em uma aplicação teria usado OAuth2 com requisição e validação de tokins.
+## Obs:Em uma aplicação real, teria usado OAuth2 para requisição e validação de tokins.
