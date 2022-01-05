@@ -1,4 +1,4 @@
-package com.osvaldsoza.petzapi.service;
+package br.com.crud.petzapi.service;
 
 import java.util.List;
 
@@ -7,19 +7,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
-import com.osvaldsoza.petzapi.model.Pet;
-import com.osvaldsoza.petzapi.repository.ClienteRepository;
-import com.osvaldsoza.petzapi.repository.PetRepository;
-import com.osvaldsoza.petzapi.utils.exception.EntidadeNaoEncontradaException;
+import br.com.crud.petzapi.model.Pet;
+import br.com.crud.petzapi.repository.PetRepository;
+import br.com.crud.petzapi.utils.exception.EntidadeNaoEncontradaException;
 
 @Service
 public class PetService {
 
 	@Autowired
 	private PetRepository petRepository;
-
-	@Autowired
-	private ClienteRepository clienteRepository;
 
 	public List<Pet> listaPets() {
 		return petRepository.findAll();
@@ -33,13 +29,6 @@ public class PetService {
 	}
 
 	public Pet salvar(Pet pet) {
-		Long clienteId = pet.getCliente().getId();
-		
-		var cliente = clienteRepository.findById(clienteId).orElseThrow(() -> new EntidadeNaoEncontradaException(
-				String.format("CADASTRO NÃO REALIZADO! CLiente de código %d não encontrado.", clienteId)));
-		
-		pet.setCliente(cliente);
-		
 		return petRepository.save(pet);
 	}
 

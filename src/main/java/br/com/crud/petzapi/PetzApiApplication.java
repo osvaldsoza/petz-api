@@ -1,4 +1,4 @@
-package com.osvaldsoza.petzapi;
+package br.com.crud.petzapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

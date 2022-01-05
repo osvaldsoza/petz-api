@@ -1,4 +1,4 @@
-package com.osvaldsoza.petzapi.model;
+package br.com.crud.petzapi.model;
 
 import lombok.Getter;
 

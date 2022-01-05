@@ -1,4 +1,4 @@
-package com.osvaldsoza.petzapi.utils.exception;
+package br.com.crud.petzapi.utils.exception;
 
 public class EntidadeEmUsoException extends RuntimeException{
 
