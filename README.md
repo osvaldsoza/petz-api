@@ -5,8 +5,6 @@
 * Spring Data JPA
 * Lombok
 * Postgres
-* Open API / Swagger
-* Rest Assured
 * Flyway
 * Docker
 * Docker Compose
@@ -24,16 +22,5 @@ Com a aplicação em execução, a mesma estará disponível na url:http://local
 * Intellij
 * Eclipse
 * STS
-#
-## Links
-### Documentação da API
-* http://localhost:8080/swagger-ui.html
-### Postman
-* https://www.getpostman.com/collections/a4207217acc97b365b65
-#
-## Autneticação
-**Utilizei autenticação simples_(Basic Auth), com usuario em memória_, só para não deixar totalmente aberta.**
-* Username:petz 
-* Password:petz
-#
+
 ## Obs:Em uma aplicação real, teria usado OAuth2 para requisição e validação de tokins.
