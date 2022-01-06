@@ -13,14 +13,8 @@
 ## Base de dados
 ### Com o Docker instalado,acesse:
 _**/petz-api**_ e digite: _**docker-compose up**_. 
-Com isso a base,**petz**, será iniciada, com as tabelas **cliente** e **pet**, com alguns registros iniciais.
+Com isso a base,**petz**, será iniciada, com a tabela **pet**, com alguns registros iniciais.
 #
 ## Levantar a aplicação 
 Após clonar o repositório, deverá abri-lo em uma IDE, de sua preferência, para projetos java.
 Com a aplicação em execução, a mesma estará disponível na url:http://localhost:8080/nome_do_recurso
-### IDE's recomendadas
-* Intellij
-* Eclipse
-* STS
-
-## Obs:Em uma aplicação real, teria usado OAuth2 para requisição e validação de tokins.
