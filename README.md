@@ -20,6 +20,7 @@ Implementar uma Rest API para selecionar,cadastrar,atualizar e deletar um pet.
 1. Execute o comnado: ``dotnet run``.
 1. Sugestão de IDE's ``Spring Tool Suite | Eclipse | VS Code``. Na implementação foi utilizado o ``Intellij``.
 
+# :hammer: Endpoints
 # Autor
 
 | [<img loading="lazy" src="https://github.com/osvaldsoza/ApiFuncional/assets/9426175/cba31f2b-3b5d-4a6d-ab6d-39583efe752b" width=115><br><sub>Osvaldo de Souza Ferreira</sub>](https://github.com/camilafernanda) 
