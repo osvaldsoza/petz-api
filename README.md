@@ -1,9 +1,8 @@
 ![dotnet core](https://github.com/osvaldsoza/ApiFuncional/assets/9426175/d88bdc8e-7cc1-4bd3-bb81-d6e80e7a0c74)
 
-# Resumo do projeto
-Teste prático,para comprovação deImplementação de um CRUD simples para consolidar conhecimentos iniciais adquiridos da paltaforma DotNet Core WebApi.
-
-# Rest API - Petz
+# Resumo do projeto (Petz)
+Avaliação técnica da empresa Petz para desenvolvedor backend.  
+Implementar uma Rest API.
 
 ## ✔️ Tecnologias utilizadas
 - ``SpringBoot``
@@ -19,7 +18,7 @@ Teste prático,para comprovação deImplementação de um CRUD simples para cons
 1. Execute o comnado: ``docker compose up -d`` para levantar o banco de dados. Com isso, a base de dados será iniciada já com alguns registros na tabela ``pet``.
 1. Execute o comnado: ``mvn clean install`` para buildar o projeto.
 1. Execute o comnado: ``dotnet run``.
-1. IDE's ``Spring Tool Suite | Eclipse | VS Code``. Na implementacao foi utilizado o ``Intellij``.
+1. Sugestão de IDE's ``Spring Tool Suite | Eclipse | VS Code``. Na implementação foi utilizado o ``Intellij``.
 
 # Autor
 
