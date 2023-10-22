@@ -1,8 +1,8 @@
 spring:
   datasource:
-    password: development
-    url: jdbc:postgresql://osfdeveloper-postgres.cmun4vs9altm.sa-east-1.rds.amazonaws.com/dbdevelopment?createDatabaseIfNotExist=true&serverTimezone=UTC
-    username: postgres
+    password: petz
+    url: jdbc:postgresql://localhost:5432/petz?createDatabaseIfNotExist=true&serverTimezone=UTC
+    username: petz
   jpa:
     database: POSTGRESQL
   flyway:
