@@ -16,10 +16,16 @@ Implementar uma Rest API para selecionar,cadastrar,atualizar e deletar um pet.
 
 # 🛠️ Rodar o projeto
 1. Execute o comnado: ``docker compose up -d`` para levantar o banco de dados. Com isso, a base de dados será iniciada já com alguns registros na tabela ``pet``.
-1. Execute o comnado: ``mvn clean install`` para buildar o projeto.
+1. Execute o comnado: ``./mvnw clean install`` para buildar o projeto.
+1. Execute o comnado: ``./mvnw spring-boot:run clean install`` para ``"subir"`` o projeto.
 1. Sugestão de IDE's ``Spring Tool Suite | Eclipse | VS Code``. Na implementação foi utilizado o ``Intellij``.
 
-# :hammer: Endpoints
+# 🛠️ Endpoints
+- ``GET http://localhost:8080/pets``
+- ``GET http://localhost:8080/pets/{{id}}``
+- ``POST http://localhost:8080/pets``
+- ``PUT http://localhost:8080/pets/{{id}}``
+- ``DELETE http://localhost:8080/pets/{{id}}``
 
 # Autor
 
