@@ -2,7 +2,7 @@
 
 # Resumo do projeto 
 Avaliação técnica da empresa Petz para desenvolvedor backend.  
-Implementar uma Rest API.
+Implementar uma Rest API para selecionar,cadastrar,atualizar e deletar um pet.
 
 ## ✔️ Tecnologias utilizadas
 - ``SpringBoot``
