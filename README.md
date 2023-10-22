@@ -1,6 +1,6 @@
 ![dotnet core](https://github.com/osvaldsoza/ApiFuncional/assets/9426175/d88bdc8e-7cc1-4bd3-bb81-d6e80e7a0c74)
 
-# Resumo do projeto (Petz)
+# Resumo do projeto 
 Avaliação técnica da empresa Petz para desenvolvedor backend.  
 Implementar uma Rest API.
 
