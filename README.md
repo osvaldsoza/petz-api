@@ -4,7 +4,7 @@
 
 # Project Summary 
 Technical assessment of the ``Petz``company for backend developer.  
-To implement a Rest API to select, create, update and delete a ``Pet``.
+To implement a Rest API to select, create, update and delete a resource.
 
 ## ✔️ Technologies used
 - ``SpringBoot``
