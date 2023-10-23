@@ -16,20 +16,20 @@ To implement a Rest API to select, create, update and delete a ``Pet``.
 - ``JDK 11``
 - ``Intellij``
 
-# 🛠️ Execute project
+## 🛠️ Execute project
 1. Run the command: ``docker compose up -d``. 
 1. Run the command: ``./mvnw clean install``. 
 1. Run the command: ``./mvnw spring-boot:run``.
 1. IDE's suggestion: ``Spring Tool Suite | Eclipse | VS Code``. In the implementation, ``Intellij`` was used.
 
-# 🛠️ Endpoints
+## 🛠️ Endpoints
 - ``GET http://localhost:8080/pets``
 - ``GET http://localhost:8080/pets/{{id}}``
 - ``POST http://localhost:8080/pets``
 - ``PUT http://localhost:8080/pets/{{id}}``
 - ``DELETE http://localhost:8080/pets/{{id}}``
 
-# Author
+## Author
 
 | [<img loading="lazy" src="https://github.com/osvaldsoza/ApiFuncional/assets/9426175/cba31f2b-3b5d-4a6d-ab6d-39583efe752b" width=115><br><sub>Osvaldo de Souza Ferreira</sub>](https://github.com/camilafernanda) 
 | :---:

@@ -16,20 +16,20 @@ Implementar uma Rest API para selecionar,cadastrar,atualizar e deletar um pet.
 - ``JDK 11``
 - ``Intellij``
 
-# 🛠️ Rodar o projeto
+## 🛠️ Rodar o projeto
 1. Execute o comnado: ``docker compose up -d``.
 1. Execute o comnado: ``./mvnw clean install``.
 1. Execute o comnado: ``./mvnw spring-boot:run``.
 1. Sugestão de IDE's: ``Spring Tool Suite | Eclipse | VS Code``. Na implementação foi utilizado o ``Intellij``.
 
-# 🛠️ Endpoints
+## 🛠️ Endpoints
 - ``GET http://localhost:8080/pets``
 - ``GET http://localhost:8080/pets/{{id}}``
 - ``POST http://localhost:8080/pets``
 - ``PUT http://localhost:8080/pets/{{id}}``
 - ``DELETE http://localhost:8080/pets/{{id}}``
 
-# Autor
+## Autor
 
 | [<img loading="lazy" src="https://github.com/osvaldsoza/ApiFuncional/assets/9426175/cba31f2b-3b5d-4a6d-ab6d-39583efe752b" width=115><br><sub>Osvaldo de Souza Ferreira</sub>](https://github.com/camilafernanda) 
 | :---:
