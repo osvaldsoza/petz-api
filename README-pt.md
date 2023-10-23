@@ -3,7 +3,7 @@
 [Translate to English](https://github.com/osvaldsoza/petz-api/blob/master/README.md)
 
 # Resumo do projeto 
-Avaliação técnica da empresa Petz para desenvolvedor backend.  
+Avaliação técnica da empresa ``Petz`` para desenvolvedor backend.  
 Implementar uma Rest API para selecionar,cadastrar,atualizar e deletar um recurso.
 
 ## ✔️ Tecnologias utilizadas
