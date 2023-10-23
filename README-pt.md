@@ -1,6 +1,6 @@
 ![dotnet core](https://github.com/osvaldsoza/ApiFuncional/assets/9426175/d88bdc8e-7cc1-4bd3-bb81-d6e80e7a0c74)
 
-# [Translate to English](https://github.com/osvaldsoza/petz-api/blob/master/README.md)
+[Translate to English](https://github.com/osvaldsoza/petz-api/blob/master/README.md)
 
 # Resumo do projeto 
 Avaliação técnica da empresa Petz para desenvolvedor backend.  
@@ -17,10 +17,10 @@ Implementar uma Rest API para selecionar,cadastrar,atualizar e deletar um pet.
 - ``Intellij``
 
 # 🛠️ Rodar o projeto
-1. Execute o comnado: ``docker compose up -d`` para levantar o banco de dados. Com isso, a base de dados será iniciada já com alguns registros na tabela ``pet``.
-1. Execute o comnado: ``./mvnw clean install`` para buildar o projeto.
-1. Execute o comnado: ``./mvnw spring-boot:run`` para ``"subir"`` o projeto.
-1. Sugestão de IDE's ``Spring Tool Suite | Eclipse | VS Code``. Na implementação foi utilizado o ``Intellij``.
+1. Execute o comnado: ``docker compose up -d``.
+1. Execute o comnado: ``./mvnw clean install``.
+1. Execute o comnado: ``./mvnw spring-boot:run``.
+1. Sugestão de IDE's: ``Spring Tool Suite | Eclipse | VS Code``. Na implementação foi utilizado o ``Intellij``.
 
 # 🛠️ Endpoints
 - ``GET http://localhost:8080/pets``
